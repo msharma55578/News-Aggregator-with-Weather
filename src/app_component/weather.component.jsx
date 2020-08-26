@@ -3,9 +3,9 @@ import React from 'react';
 const weather=(props)=>{
     return(
         <div className="container">
-            <div className="cards">
+            <div className="cards pt-4">
                 <h1>
-                    {props.city},{props.country}
+                    {props.city}
                 </h1>
                 <h5 className="py-4">
                     <i className={`wi ${props.weatherIcon} display-1`}/>
@@ -31,4 +31,4 @@ function maxminTemp(min, max) {
         </h3>
       );
     }
-  }
+  }  
